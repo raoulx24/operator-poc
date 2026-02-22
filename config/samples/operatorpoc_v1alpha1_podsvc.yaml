@@ -1,0 +1,9 @@
+apiVersion: operatorpoc.my.domain/v1alpha1
+kind: PodSvc
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-poc
+    app.kubernetes.io/managed-by: kustomize
+  name: podsvc-sample
+spec:
+  # TODO(user): Add fields here
