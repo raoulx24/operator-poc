@@ -7,6 +7,9 @@
 bin/*
 Dockerfile.cross
 
+# default build binary - linux
+main
+
 # Test binary, built with `go test -c`
 *.test
 
