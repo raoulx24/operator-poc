@@ -95,7 +95,7 @@ spec:
 ## Note
 Operator‑SDK v4 uses a different project layout than Kubebuilder v3.
 
-Controllers are located under internal/controller/, not controllers/.
+Controllers are located under `internal/controller/`, not `controllers/`.
 
 The controller is automatically registered through internal/controller/controller.go 
 and invoked from cmd/main.go. The correct place to implement reconciliation logic 
